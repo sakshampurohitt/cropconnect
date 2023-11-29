@@ -1,0 +1,94 @@
+body {
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/910/11/748/background-fruit-vegetables-cuts-hd-wallpaper-preview.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(250, 255, 255, 0.3);
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(10, 10, 10, 0.1);
+  border-radius: 10px;
+}
+
+img {
+  filter: brightness(130%);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-box {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 30px;
+  border-radius: 10px;
+  position: relative;
+  left: 20px;
+}
+
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+  width: 92%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid yellow;
+}
+select {
+  width: 100%;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: orange;
+}
+
+p {
+  color: black;
+  font-size: medium; 
+}
+
+a {
+color: green;
+}
